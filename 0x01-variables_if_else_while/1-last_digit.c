@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of a randomly selected number and whether it is greater than 5, less than 6, or 0.
+ * main - Prints a text according to number
  *Return: Always (Success)
  */
 int main(void)
+
 {
 	int n, lastd;
 
@@ -22,9 +23,9 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
-	else if (lastd < 6 && lastd !=0)
+	else if (lastd < 6 && lastd != 0)
 	{
-		printf("Last digit of %d is %d is less than 6 and not 0\n", n, lastd);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
 	return (0);
 }
