@@ -8,6 +8,7 @@
  */
 
 int main(void)
+
 {
 	char low, e, q;
 
@@ -20,4 +21,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
