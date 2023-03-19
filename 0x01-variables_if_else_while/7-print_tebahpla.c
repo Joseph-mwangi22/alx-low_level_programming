@@ -14,11 +14,11 @@ int main(void)
 
 	char low;
 
-	for (low = 'z'; >= 'a'; low--)
+	for (low = 'z'; > 'a'; low--)
 
 	putchar(low);
 	putchar('\n');
-	
+
 	return (0);
 
 }
