@@ -1,13 +1,13 @@
 #include "main.h"
-
 /**
- * add -ADD two values
- * @n1: first num to be computed
- * @n2 second num to be computed
- * Return: interger value
+ * add - returns the sum of its parameters
+ * @i: int type number
+ * @j: int type number
+ * Return:0 (success
  */
 
-int add(int n1, int n2)
+
+int add(int i, int j)
 {
-	return (n1 + n2);
+return (i + j);
 }
