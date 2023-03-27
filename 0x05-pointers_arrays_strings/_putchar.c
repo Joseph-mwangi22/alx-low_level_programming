@@ -1,14 +1,13 @@
 #include <unistd.h>
-#include <stdio.h>
 
 /**
- * print_numbers - print the numbers since 0 upto 9
- * @x: character to print
- * Return: the numbers since 0 upto 9
+ * main - writes character c to stdout
+ * @c: character to print
+ * Return: 0n success 1
+ * on error, -1 is returned and eerno set appropriate
  */
 
-int _putchar(char x)
-
+int _putchar(char c)
 {
-        return (write(1, &x, 1));
+	return (write(1, &c, 1));
 }
