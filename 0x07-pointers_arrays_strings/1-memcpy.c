@@ -5,7 +5,7 @@
  * @src: memory where compiled
  * @n: number of bytes
  *
- * Retur: copied memory with n bytes changed
+ * Return: copied memory with n bytes changed
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -17,5 +17,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest[r] = src[r];
 		n--;
 	}
-	return(dest);
+	return (dest);
 }
