@@ -2,7 +2,7 @@
 /**
  * _strchr - entry point
  * @s: input
- * @c: nput
+ * @c: input
  *
  * Return: Always 0 (success)
  */
